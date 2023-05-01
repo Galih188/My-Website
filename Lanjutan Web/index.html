@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashionista</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<script type="text/javascript">
+    function handler() {
+        var nama = document.forms["myForm"]["nama"].value;
+        if (nama == "") {
+            alert("Mohon ketikkan nama anda!");
+            return false;
+        }
+    }
+</script>
+<body>
+    <header class="header1">
+        <div class="form-login">
+            <form action="Beranda.php" name="myForm" method="post" onsubmit="return handler()">
+                <div>
+                    <label for="nm"><b>Siapa Namamu?</b></label>
+                    <br>
+                    <input type="text" style="text-align: center; font-size: medium; font-family: Arial, Helvetica, sans-serif;" name="nama" id="nama" class="nama">
+                </div>
+                <div>
+                    <input type="submit" value="Simpan" name="simpan" class="btn">
+                </div>
+            </form>
+        </div> 
+    </header>
+</body>
+</html>

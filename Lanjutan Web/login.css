@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.header1{
+    background-image: url(Pictures/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Form Login */
+.form-login{
+    border-radius: 20px;
+    background-color: rgba(157, 157, 157, 0.5);
+    height: auto;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 41%;
+    padding: 15px;
+    position: absolute;
+    top: 10%;
+    left: auto;
+}
+
+label {
+    font-size: 20px;
+    color: #000;
+    font-family: sans-serif;
+}
+input[type="text"],
+
+.btn{
+    border: 2px solid #000;
+    padding: 10px 30px;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.6s ease 0s;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+}
